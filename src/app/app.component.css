@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.list-container {
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 2em;
+
+}
+
+.control-container {
+  width: 400px;
+  max-width: 100%;
+  margin: 0 25px 25px 0;
+  display: inline-block;
+  vertical-align: top;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+
+.list {
+  border: RGBA(46, 49, 49, .7) solid 1px;
+  border-radius: 2px;
+}
+
+.list-item {
+  margin: 10px;
+  padding: 20px 10px;
+  border-bottom: solid 1px #ccc;
+  color: rgba(0, 0, 0, 0.87);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  cursor: move;
+  background: cyan;
+  font-size: 14px;
+}
+
+.rendering-space{
+    width: 25em;
+    height: 15em;
+}
+.render-container{
+  border: RGBA(46, 49, 49, .7) solid 1px;
+  border-radius: 2px;
+  height: 46vh;
+;
+}
